@@ -90,7 +90,7 @@ for (td in tdnames) {
   }
 }
 D[is.na(D)] = 0
-D = (D[1,,,,,,,] + D[2,,,,,,,] + D[3,,,,,,,] + D[4,,,,,,,])/4
+D = colMeans(D)
 # faster than D = apply(D,2:8,mean,na.rm=TRUE)
 dim(D)
 @
