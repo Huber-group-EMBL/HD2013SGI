@@ -9,4 +9,4 @@ export(HD2013SGImaineffects)
 export(HD2013SGIselectByStability)
 export(HD2013SGIorderDim)
 export(HD2013SGIHeatmapHuman)
-
+export(HD2013SGIdata)
