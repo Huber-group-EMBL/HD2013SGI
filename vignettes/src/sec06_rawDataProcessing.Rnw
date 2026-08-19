@@ -10,10 +10,10 @@ library("HD2013SGI")
 
 Load data and screen annotation in workspace.
 <<RawDataProcessing2>>=
-data("datamatrixfull",package="HD2013SGI")
+datamatrixfull <- HD2013SGIdata("datamatrixfull")
 D = datamatrixfull$D
-data("TargetAnnotation",package="HD2013SGI")
-data("QueryAnnotation",package="HD2013SGI")
+TargetAnnotation <- HD2013SGIdata("TargetAnnotation")
+QueryAnnotation <- HD2013SGIdata("QueryAnnotation")
 @
 
 Output directories are created where the data, figures and tables will be placed in.

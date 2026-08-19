@@ -5,7 +5,7 @@
 <<screenplots1>>=
 library("HD2013SGI")
 
-data("Interactions",package="HD2013SGI")
+Interactions <- HD2013SGIdata("Interactions")
 
 dir.create(file.path("result","Figures"),
            recursive=TRUE,showWarnings=FALSE)

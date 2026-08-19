@@ -10,7 +10,7 @@ library("HD2013SGI")
 %
 Load screening data in workspace.
 <<convertData3>>=
-data("featuresPerWell", package="HD2013SGI")
+featuresPerWell <- HD2013SGIdata("featuresPerWell")
 @
 %
 After image segmentation and feature extraction, a feature vector is
@@ -123,5 +123,4 @@ $\times$ & \Sexpr{dim(datamatrixfull$D)[6]} & biological replicates
 \end{tabular}
 \end{center}
 A precomputed version of the \Robject{datamatrix} is available from
-the package and can be loaded by \Robject{data(datamatrix,
-  package="HD2013SGI")}.
+the package and can be loaded by \Robject{HD2013SGIdata("datamatrix")}.

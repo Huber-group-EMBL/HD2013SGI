@@ -542,6 +542,6 @@ Fwell = c(count=nrow(F), apply(F, 2, mean))
 The equivalent of \Robject{Fwell}, computed for all images in the
 screen, together with associated metadata, is available as
 R-object \Robject{featuresPerWell} from the package and can be loaded
-by \Rfunction{data("featuresPerWell", package="HD2013SGI")}; see the
+by \Rfunction{HD2013SGIdata("featuresPerWell")}; see the
 next section.
 

@@ -7,10 +7,10 @@ library("HD2013SGI")
 
 dir.create(file.path("result","Figures"),recursive=TRUE,showWarnings=FALSE)
 
-data("featuresPerWell", package="HD2013SGI")
-data("TargetAnnotation",package="HD2013SGI")
-data("QueryAnnotation",package="HD2013SGI")
-data("datamatrix", package="HD2013SGI")
+featuresPerWell <- HD2013SGIdata("featuresPerWell")
+TargetAnnotation <- HD2013SGIdata("TargetAnnotation")
+QueryAnnotation <- HD2013SGIdata("QueryAnnotation")
+datamatrix <- HD2013SGIdata("datamatrix")
 @
 
 \subsection{Convert data from plate order to SGI-array}
@@ -255,7 +255,7 @@ The dimension of the data cube is now: \Sexpr{paste(dim(D),collapse=" x ")}
 \subsection{Selection of non-redundant features}
 
 <<SCNfeatureSelection3,results=hide>>=
-data(stabilitySelection, package="HD2013SGI")
+stabilitySelection <- HD2013SGIdata("stabilitySelection")
 Sel = stabilitySelection$ratioPositive >= 0.5
 @
 %
