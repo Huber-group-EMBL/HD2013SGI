@@ -10,3 +10,4 @@ Depends: R (>= 4.1.0), RColorBrewer, gplots, geneplotter, splots, limma, vcd, LS
 Suggests: BiocStyle
 SystemRequirements: GNU make
 biocViews: ExperimentData, CancerData, ColonCancerData, MicrotitrePlateAssayData, CellCulture, Homo_sapiens_Data, HighThroughputImagingData
+BuildResaveData: no
