@@ -2,7 +2,7 @@
 \alias{stabilitySelection}
 \docType{data}
 \title{Results from the feature selection method}
-\description{Results from the feature selection method.}
+\description{This dataset is no longer directly included in this package. Instead, use the \code{HD2013SGIdata} function to download it.}
 \usage{data(stabilitySelection)}
 \format{
   The format is:
@@ -24,12 +24,5 @@ List of 4
 \references{Laufer, Fischer et al., 2013}
 \seealso{
 \code{\link{HD2013SGI}}
-}
-\examples{
-data(stabilitySelection, package="HD2013SGI")
-barplot(stabilitySelection$correlation,
-        names.arg=stabilitySelection$selected,las=2)
-barplot(stabilitySelection$ratioPositive-0.5, offset=0.5,
-        names.arg=stabilitySelection$selected,las=2)
 }
 \keyword{datasets}

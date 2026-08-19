@@ -3,6 +3,7 @@
 \docType{data}
 \title{Original phenotypic measurements in screen order}
 \description{Original phenotypic features in screen order. \code{Anno} contains the annotation for each experiment including the plate name, row, col, and field. \code{data} is a \code{data.frame} with a column for each phenotypic feature and rows as much as there are experiments in the screen.}
+\details{This dataset is no longer directly included in this package. Instead, use the \code{HD2013SGIdata} function to download it.}
 \usage{data(featuresPerWell)}
 \format{
   The format is:
@@ -20,9 +21,5 @@ List of 2
 \references{Laufer, Fischer et al., 2013}
 \seealso{
 \code{\link{HD2013SGI}}
-}
-\examples{
-data(featuresPerWell, package="HD2013SGI")
-plot(log2(featuresPerWell$data[,1]),pch=".")
 }
 \keyword{datasets}

@@ -3,6 +3,7 @@
 \docType{data}
 \title{The genetic interaction data.}
 \description{The genetic interaction data. Pairwise interaction scores (\code{piscore}) are presented in a 6-dimensional array with dimensions target genes x target siRNA designs x query genes x query siRNA designs x features x replicates. BH-corrected p-values ({padj}) are presented in a 5-dimensional array with dimensions target genes x target siRNA designs x query genes x query siRNA designs x features. An annotation of target and query genes and of phenotypes can be found in (\code{Anno}). \code{scale} is the standard deviation measure used for normalization. At first standard deviations were computed between replicates for each experiment and afterwards the median of standard deviations was computed.}
+\details{This dataset is no longer directly included in this package. Instead, use the \code{HD2013SGIdata} function to download it.}
 \usage{data(Interactions)}
 \format{
   The format is:
@@ -37,11 +38,5 @@ List of 4
 \references{Laufer, Fischer et al., 2013}
 \seealso{
 \code{\link{HD2013SGI}}
-}
-\examples{
-data(Interactions, package="HD2013SGI")
-plot(Interactions$piscore[,1,"SUV39H1",1,"cell.act.m.majoraxis",1])
-print(names(which(Interactions$padj[,1,"SUV39H1",1,
-                                    "cell.act.m.majoraxis"] <= 0.01)))
 }
 \keyword{datasets}

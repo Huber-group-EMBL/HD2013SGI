@@ -56,6 +56,3 @@ Maintainer: Bernd Fischer <bernd.fischer@embl.de>
 Laufer, Fischer, Billmann, Huber, Boutros, HD2013SGI, 2013.
 }
 \keyword{ package }
-\examples{
-data(Interactions, package="HD2013SGI")
-}

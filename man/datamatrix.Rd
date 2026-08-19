@@ -3,6 +3,7 @@
 \docType{data}
 \title{Phenotypic data after quality control and feature selection}
 \description{Phenotypic features of pairwise genetic perturbation experiments \bold{after} selection of non-redundant features and quality control. \code{D} is the 6-dimensional array of experimental measurements. Its dimensions are target genes x target siRNA designs x query genes x query siRNA designs x features x replicates. The array has a dimnames attribute, but there exists a more comprehensive annotation of target genes, query genes, and phenotypes in \code{Anno}.}
+\details{This dataset is no longer directly included in this package. Instead, use the \code{HD2013SGIdata} function to download it.}
 \usage{data(datamatrix)}
 \format{
   The format is:
@@ -29,9 +30,5 @@ List of 2
 \references{Laufer, Fischer et al., 2013}
 \seealso{
 \code{\link{HD2013SGI}}
-}
-\examples{
-data(datamatrix, package="HD2013SGI")
-plot(datamatrix$D[,1,1,1,1,1])
 }
 \keyword{datasets}
