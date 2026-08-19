@@ -11,3 +11,4 @@ Suggests: BiocStyle
 SystemRequirements: GNU make
 biocViews: ExperimentData, CancerData, ColonCancerData, MicrotitrePlateAssayData, CellCulture, Homo_sapiens_Data, HighThroughputImagingData
 BuildResaveData: no
+Config/roxygen2/version: 8.1.0

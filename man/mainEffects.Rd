@@ -3,6 +3,7 @@
 \docType{data}
 \title{Estimated main effects}
 \description{Estimated main effects (single knock-down effects) for target and query genes. Additional overall effects for each phenotype are contained. The dataset contains an annotation of target genes, query genes, and phenotypes.}
+\details{This dataset is no longer directly included in this package. Instead, use the \code{HD2013SGIdata} function to download it.}
 \usage{data(mainEffects)}
 \format{
   The format is:
@@ -41,10 +42,5 @@ List of 4
 \references{Laufer, Fischer et al., 2013}
 \seealso{
 \code{\link{HD2013SGI}}
-}
-\examples{
-data(mainEffects, package="HD2013SGI")
-print(dim(mainEffects$target))
-plot(mainEffects$target[,1,1,1,1])
 }
 \keyword{datasets}

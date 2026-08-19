@@ -3,6 +3,7 @@
 \docType{data}
 \title{Number of interactions per target gene}
 \description{Number of genetic interactions per target gene.}
+\details{This dataset is no longer directly included in this package. Instead, use the \code{HD2013SGIdata} function to download it.}
 \usage{data(nrOfInteractionsPerTarget)}
 \format{
   The format is:
@@ -11,9 +12,5 @@
 \references{Laufer, Fischer et al., 2013}
 \seealso{
 \code{\link{HD2013SGI}}
-}
-\examples{
-data(nrOfInteractionsPerTarget, package="HD2013SGI")
-plot(nrOfInteractionsPerTarget)
 }
 \keyword{datasets}
