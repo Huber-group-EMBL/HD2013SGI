@@ -5,8 +5,8 @@
 <<exampleSingleKnockDownEffects1>>=
 library("HD2013SGI")
 
-data("Interactions",package="HD2013SGI")
-data("mainEffects",package="HD2013SGI")
+Interactions <- HD2013SGIdata("Interactions")
+mainEffects <- HD2013SGIdata("mainEffects")
 
 dir.create(file.path("result","Figures"),
            recursive=TRUE,showWarnings=FALSE)
