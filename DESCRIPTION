@@ -9,7 +9,9 @@ Authors@R:
   )
 Description: This package contains the experimental data and a complete executable transcript (vignette) of the analysis of the HCT116 genetic interaction matrix presented in the paper "Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping" by C. Laufer, B. Fischer, M. Billmann, W. Huber, M. Boutros; Nature Methods (2013) 10:427-31. doi: 10.1038/nmeth.2436.
 License: Artistic-2.0
-Depends: R (>= 4.1.0), RColorBrewer, gplots, geneplotter, splots, limma, vcd, LSD,EBImage,httr2
+Depends: R (>= 4.1.0), gplots, geneplotter, splots, limma, vcd, LSD,EBImage,httr2
+Imports:
+  grDevices
 Suggests: BiocStyle
 SystemRequirements: GNU make
 biocViews: ExperimentData, CancerData, ColonCancerData, MicrotitrePlateAssayData, CellCulture, Homo_sapiens_Data, HighThroughputImagingData

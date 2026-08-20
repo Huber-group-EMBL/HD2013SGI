@@ -12,7 +12,7 @@ Version: \tab 0.0.3\cr
 License: \tab Artistic-2.0\cr
 LazyLoad: \tab true\cr
 Imports: \tab \cr
-Depends: \tab rhdf5, RColorBrewer, gplots, geneplotter, MASS, grid, hwriter, splots, igraph, abind, limma, vcd, LSD\cr
+Depends: \tab rhdf5, gplots, geneplotter, MASS, grid, hwriter, splots, igraph, abind, limma, vcd, LSD\cr
 SystemRequirements: \tab GNU make\cr
 biocViews: \tab Infrastructure\cr
 Built: \tab R 2.15.1; ; 2013-02-14 12:08:09 UTC; unix\cr

@@ -393,7 +393,7 @@ information. The barplot below shows the correlation coefficients of the
 residual features, which was considered the proxy for information content.
 %
 <<featureSelection5,echo=FALSE,results=hide>>=
-col = brewer.pal(3,"Pastel1")[1:2]
+col = grDevices::palette.colors(3,"Pastel 1")[1:2]
 pdf(file.path("result","Figures","FeatureSelectionInformationgain.pdf"))
 par(mar=c(13,4,1,1))
 @

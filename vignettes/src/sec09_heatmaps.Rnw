@@ -105,7 +105,7 @@ The heatmap of correlation coefficients is plotted.
 pdf(file.path("result","Figures","heatmapSelection.pdf"))
 <<heatmap12,results=hide>>=
 dd = as.dendrogram(hcAll)
-heatmap.2(C2, col=colorRampPalette(brewer.pal(9,"RdBu"))(255),
+heatmap.2(C2, col=colorRampPalette(hcl.colors(9,"RdBu"))(255),
           breaks=seq(-1,1,length.out=256),
           trace="none",Rowv=dd,Colv=dd)
 <<heatmap13,echo=FALSE,results=hide>>=

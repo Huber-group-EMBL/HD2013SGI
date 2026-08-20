@@ -70,7 +70,7 @@ multidensity(list(againstDifferentGenes = C[differentGenes],
                x = "topleft",
                legend = c("siRNA against different genes",
                           "siRNA against same gene"),
-               fill = brewer.pal(9,"Set1")[1:2],bty="n"),
+               fill = grDevices::palette.colors(9,"Set 1")[1:2],bty="n"),
              xlim=c(-1,1),xlab="Correlation between siRNA designs",lwd=3)
 rug(cc[sel])
 @
