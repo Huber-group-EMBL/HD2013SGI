@@ -2,8 +2,11 @@ Package: HD2013SGI
 Type: Package
 Title: Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping
 Version: 1.53.0
-Author: Bernd Fischer
-Maintainer: Mike Smith <mike.smith@embl.de>
+Authors@R:
+  c(
+    person(given = "Bernd", family = "Fischer", role = "aut"),
+    person(given = "Hugo", family = "Gruson", email = "hugo.gruson@embl.de", role = "cre")
+  )
 Description: This package contains the experimental data and a complete executable transcript (vignette) of the analysis of the HCT116 genetic interaction matrix presented in the paper "Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping" by C. Laufer, B. Fischer, M. Billmann, W. Huber, M. Boutros; Nature Methods (2013) 10:427-31. doi: 10.1038/nmeth.2436.
 License: Artistic-2.0
 Depends: R (>= 4.1.0), RColorBrewer, gplots, geneplotter, splots, limma, vcd, LSD,EBImage,httr2
