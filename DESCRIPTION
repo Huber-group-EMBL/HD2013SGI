@@ -1,7 +1,7 @@
 Package: HD2013SGI
 Type: Package
 Title: Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping
-Version: 1.53.0
+Version: 1.53.1
 Authors@R:
   c(
     person(given = "Bernd", family = "Fischer", role = "aut"),
